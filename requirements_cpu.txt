@@ -1,0 +1,49 @@
+# ============================================================================
+# Hanif Jewellery - Weapon Detection System Requirements (CPU ONLY)
+# No GPU/CUDA dependencies - Works on any computer
+# ============================================================================
+
+# PyTorch CPU-only version (required by ultralytics)
+# Install this FIRST before other packages
+torch
+torchvision
+
+# Object Detection (CPU version)
+ultralytics
+
+# Computer Vision
+opencv-python
+
+# GUI Framework
+PyQt5
+
+# Image Processing
+Pillow
+numpy
+
+# Audio for Alert System
+pygame
+
+# Utilities
+pyyaml
+tqdm
+pandas
+
+# Visualization (Optional)
+matplotlib
+seaborn
+
+# ============================================================================
+# Installation Instructions (CPU ONLY):
+# ============================================================================
+# 
+# 1. Install all requirements:
+#    pip install -r requirements_cpu.txt
+#
+# 2. Run the system:
+#    python src/gui_main.py
+#
+# Note: This version runs on CPU only. It will be slower than GPU version
+#       but will work on any computer without CUDA/GPU requirements.
+#
+# ============================================================================

@@ -151,3 +151,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+print("Test log from branch A")
+print("Test log from branch A")

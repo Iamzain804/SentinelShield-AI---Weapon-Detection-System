@@ -157,3 +157,4 @@ print("Test log from branch A")
 =======
 print("Test log from branch B")
 >>>>>>> feature/test-log-b
+print("Test log from branch C")
